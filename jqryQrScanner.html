@@ -18,7 +18,7 @@ preview.style.transform="";
       });
       Instascan.Camera.getCameras().then(function (cameras) {
 for(var i=0; i<cameras.length; i++){
- alert("i>>"+cameras[i].name);
+ //alert("i>>"+cameras[i].name);
 }
         if (cameras.length > 1) {
           scanner.start(cameras[1]);
